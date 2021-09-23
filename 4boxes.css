@@ -1,0 +1,57 @@
+body {
+background-color: rgb(116, 182, 226);
+position: relative;
+}
+
+#nav {
+    background-color: rgb(185, 156, 180);
+    text-align: right;
+    font-family: Helvetica;
+    padding: 10px; 
+    margin: -10px;
+}
+
+#nav a {
+    color: white;
+    font-size: 18px;
+    
+}
+
+#fourboxes {
+ text-align: center; 
+max-width: 1200px;
+margin: 0 auto; 
+padding: 50px;
+display: flex; 
+flex-wrap: wrap;
+justify-content: space-around;
+align-items: stretch;
+
+
+}
+
+.box {
+    width: 200px;
+    padding: 20px;
+    margin: 10px 20px;
+    border: rgb(255, 255, 255);
+    border-style: solid;
+
+    
+
+}
+
+#frf {
+    display: flex; 
+    justify-content: left;
+}
+
+.mi {
+    background-color: rgb(241, 117, 101);
+    width: 100%;
+    height: 20px; 
+    border-color: burlywood;
+    border-style: solid;
+    border-radius: 5px;
+
+}
